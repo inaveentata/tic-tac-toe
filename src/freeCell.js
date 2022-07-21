@@ -95,7 +95,11 @@ function freeCell(inputNum, textValues) {
         return 1;
       }
     } else if (textValues[2].textContent === textValues[8].textContent) {
-      if (textValues[5].textContent === "") return 5;
+      if (textValues[5].textContent === "") {
+        return 5
+      }else if (textValues[0].textContent === "") {
+        return 0
+      }
     } else if (textValues[4].textContent === "") {
       return 4;
     }else if (textValues[8].textContent === "") {
