@@ -214,6 +214,12 @@ function freeCell(inputNum, textValues) {
       if (textValues[3].textContent === "") return 3;
     } else if (textValues[4].textContent === "") {
       return 4;
+    }else if (textValues[0].textContent === "") {
+      return 0
+    }else if (textValues[2].textContent === "") {
+      return 2
+    }else if (textValues[8].textContent === "") {
+      return 8
     }
   } else if (inputNum === 7) {
     if (textValues[7].textContent === textValues[6].textContent) {
@@ -276,6 +282,12 @@ function freeCell(inputNum, textValues) {
       if (textValues[5].textContent === "") return 5;
     } else if (textValues[4].textContent === "") {
       return 4;
+    }else if (textValues[6].textContent === "") {
+      return 6
+    }else if (textValues[2].textContent === "") {
+      return 2
+    }else if (textValues[0].textContent === "") {
+      return 0
     }
   }
 }
