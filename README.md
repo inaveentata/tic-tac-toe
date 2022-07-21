@@ -1,7 +1,8 @@
 # Tic Tac Toe
 
-## Tech stack used to built
+Click [here](https://tic-tac-toe-21july.netlify.app/) to see the deployed project.
+## Build with
 - React
-- CSS
+- Vannilla CSS
 
 ![](/Tic%20tac%20toe.png)
