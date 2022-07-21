@@ -14,7 +14,7 @@ function App() {
         <button onClick={()=> window.location.reload()} className='play-btn'>Play Again</button>
     </main>
       <footer>
-        <a href="https://github.com/inaveentata/tic-tac-toe" target='_blank'>Github Source</a>
+        <a href="https://github.com/inaveentata/tic-tac-toe" target='_blank' rel='noreferrer' >Github Source</a>
     </footer>
     </>
   );
