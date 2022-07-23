@@ -11,5 +11,5 @@ function checkTextContent(id) {
   }
   findWinner(allText, check.length);
 }
-
+ 
 export default checkTextContent;
